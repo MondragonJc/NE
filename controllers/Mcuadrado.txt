@@ -1,7 +1,0 @@
-public class Mcuadrado {
-public static void main(string [] args) {
-System.out.println("Augusto");
-new Cuadrado().imprimir();
-new Cuadrado(58.56).imprimir();
-}
-}
