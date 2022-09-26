@@ -49,10 +49,10 @@ class SePersona extends \yii\db\ActiveRecord
     {
         return [
             'per_id' => Yii::t('app', 'Id'),
-            'per_nombre' => Yii::t('app', 'Per Nombre'),
-            'per_paterno' => Yii::t('app', 'Per Paterno'),
-            'per_materno' => Yii::t('app', 'Per Materno'),
-            'per_telefono' => Yii::t('app', 'Per Telefono'),
+            'per_nombre' => Yii::t('app', 'Nombre'),
+            'per_paterno' => Yii::t('app', 'Apellido Paterno'),
+            'per_materno' => Yii::t('app', 'Apellido Materno'),
+            'per_telefono' => Yii::t('app', 'Telefono'),
             'per_fkuser' => Yii::t('app', 'Per Fkuser'),
         ];
     }
