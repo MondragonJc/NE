@@ -1,10 +1,11 @@
 <?php
 
-use yii\helpers\Html;
 use yii\helpers\Url;
+use yii\helpers\Html;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
+use app\models\CatCategoria;
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\CatCategoriaSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
