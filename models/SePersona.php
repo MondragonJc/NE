@@ -53,7 +53,7 @@ class SePersona extends \yii\db\ActiveRecord
             'per_paterno' => Yii::t('app', 'Apellido Paterno'),
             'per_materno' => Yii::t('app', 'Apellido Materno'),
             'per_telefono' => Yii::t('app', 'Telefono'),
-            'per_fkuser' => Yii::t('app', 'Usuario'),
+            'per_fkuser' => Yii::t('app', 'Tipo de Usuario'),
         ];
     }
 
